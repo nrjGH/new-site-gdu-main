@@ -1,0 +1,51 @@
+.home{
+    /* display: none; */
+    color: red;
+}
+
+.cam{
+    width:100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+@media screen and (max-width: 600px)
+{
+    .home{
+        display: block;
+        align-items: center;
+        width: 100%;
+        background-image: url('SItebg.png');
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 1.7rem;
+        line-height: 60px;
+    }
+
+    .Menuhome{
+        margin: 0px auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hometop{
+        width: 70%;
+        margin: 0px auto;
+        align-items: center;
+    }
+
+    .hometop h1{
+        width: 100%;
+        word-wrap: break-word;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hometop h3{
+        text-align: center;
+    }
+}
